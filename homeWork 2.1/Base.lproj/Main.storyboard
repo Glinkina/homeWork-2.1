@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a3R-Oy-b7F">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -82,7 +82,7 @@
         <scene sceneID="0CE-ob-Kmz">
             <objects>
                 <viewController id="a3R-Oy-b7F" customClass="ViewController" customModule="homeWork_2_1" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3j5-jJ-2En">
+                    <view key="view" contentMode="scaleToFill" id="3j5-jJ-2En" propertyAccessControl="all">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -136,6 +136,7 @@
                     </view>
                     <connections>
                         <outlet property="greenColor" destination="CNA-Ze-tJk" id="3g2-Ph-eEN"/>
+                        <outlet property="picture" destination="3j5-jJ-2En" id="tB2-6R-TtT"/>
                         <outlet property="redColor" destination="nEe-fe-3rk" id="fqZ-az-3xz"/>
                         <outlet property="startButton" destination="aVM-Dm-AHe" id="pmy-yg-rg8"/>
                         <outlet property="yellowColor" destination="SET-Db-Orb" id="aWL-ng-t0L"/>
