@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  homeWork 2.1
 //
-//  Created by Andrey Glinkin on 03.12.2020.
+//  Created by Andrey Glinkin on 05.12.2020.
 //
 
 import UIKit
@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.layer.contents = #imageLiteral(resourceName: "qwerty.jpg").cgImage
+        view.layer.contents = #imageLiteral(resourceName: "qwerty").cgImage
         
         redColor.alpha = 0.3
         yellowColor.alpha = 0.3

@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a3R-Oy-b7F">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x9p-dM-B5s">
-                                <rect key="frame" x="20" y="44" width="374" height="399"/>
+                                <rect key="frame" x="19" y="44" width="375" height="399"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <viewLayoutGuide key="safeArea" id="OY4-25-x1q"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oOm-Wc-zTA">
-                                <rect key="frame" x="20" y="459" width="374" height="403"/>
+                                <rect key="frame" x="19" y="459" width="375" height="403"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <viewLayoutGuide key="safeArea" id="qaJ-Oe-H7f"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -135,16 +135,15 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="greenColor" destination="CNA-Ze-tJk" id="3g2-Ph-eEN"/>
-                        <outlet property="picture" destination="3j5-jJ-2En" id="tB2-6R-TtT"/>
+                        <outlet property="greenColor" destination="CNA-Ze-tJk" id="STw-jQ-w2P"/>
                         <outlet property="redColor" destination="nEe-fe-3rk" id="fqZ-az-3xz"/>
-                        <outlet property="startButton" destination="aVM-Dm-AHe" id="pmy-yg-rg8"/>
-                        <outlet property="yellowColor" destination="SET-Db-Orb" id="aWL-ng-t0L"/>
+                        <outlet property="startButton" destination="aVM-Dm-AHe" id="HAX-vD-sL9"/>
+                        <outlet property="yellowColor" destination="SET-Db-Orb" id="rRI-wv-Sc5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tZw-4n-QVK" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2218.840579710145" y="302.00892857142856"/>
+            <point key="canvasLocation" x="-2280" y="268"/>
         </scene>
     </scenes>
     <resources>
